@@ -11,21 +11,29 @@
     align-items: center;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
 }
 
-h1,h2{
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
 }
-h3,h4,h5,h6,p,a{
+
+h3,
+h4,
+h5,
+h6,
+p,
+a {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     letter-spacing: .8px;
 }
+
 nav {
     background-color: #ffcad4;
 }
@@ -60,7 +68,8 @@ nav {
     align-items: center;
     outline: none;
 }
-.navbar-brand strong{
+
+.navbar-brand strong {
     align-self: flex-end;
 }
 
@@ -70,23 +79,68 @@ nav {
     padding: 5vh 0vh;
     background-color: #fff;
 }
-.jumbotron h4{
+
+.jumbotron h4 {
     font-size: 22px;
 }
-.jumbotron-img{
+
+.jumbotron-img {
     height: 35vh;
 }
-footer{
+
+footer {
+    margin-top: 50px;
     width: 100%;
     background-color: #ffcad4;
     overflow: hidden;
     min-height: 20vh;
     color: #9d8189;
 }
-footer strong{
+
+footer strong {
     color: #7b6067;
 }
-hr{
+
+hr {
     border-color: #7b6067;
     width: 100%;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 5px;
+    margin: 5% 10px;
+    border: none;
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow: 10px 10px 14px #ababab,
+        -10px -10px 14px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+
+.card img {
+    width: 280px;
+}
+
+.card ul {
+    list-style: none;
+}
+
+@media screen and (max-width : 1000px) {
+    .card-deck {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width : 320px){
+    p{
+        font-size: 11px;
+    }
 }
