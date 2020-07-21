@@ -132,6 +132,9 @@ hr {
 .card ul {
     list-style: none;
 }
+iframe{
+    width: 71%;
+}
 
 @media screen and (max-width : 1000px) {
     .card-deck {
@@ -141,5 +144,8 @@ hr {
 @media screen and (max-width : 450px){
     p{
         font-size: 11px;
+    }
+    iframe{
+        width: 100%;
     }
 }
