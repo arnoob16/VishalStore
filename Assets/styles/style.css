@@ -1,47 +1,92 @@
-.footer{
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.lowerFooter img{
-    height: 150px !important;
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.lowerFooter h3{
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+h3,h4,h5,h6,p,a{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 2em;
+    letter-spacing: .8px;
 }
-.lowerFooter h5{
-    color: #F57C00;
+nav {
+    background-color: #ffcad4;
 }
-.lowerFooter{
-    background-color: #222;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.nav-item,
+.navbar-brand,
+.nav-link {
+    color: #9d8189;
+    font-size: 20px;
+}
+
+.navbar-brand :hover,
+.nav-link:hover {
+    color: #7b6067 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    outline: none;
+}
+
+.navbar-toggler {
+    border-color: #9d8189;
+    outline: none !important;
+}
+
+.navbar-brand {
+    font-size: 5vh;
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    display: inline-flex;
     align-items: center;
-    overflow: hidden;
-    padding: 1% 0%;
+    outline: none;
 }
-.lowerFooter a{
-    text-decoration: none;
-    color: #f7f7f7;
+.navbar-brand strong{
+    align-self: flex-end;
 }
-.lowerFooter .col-md-4{
-    min-width: fit-content;
+
+.jumbotron {
+    min-height: 50vh;
+    border-radius: 0;
+    padding: 5vh 0vh;
+    background-color: #fff;
 }
-.lowerFooter .container-fluid{
-    padding: 0% !important;
-    margin: 0% !important;
+.jumbotron h4{
+    font-size: 22px;
 }
-.lowerFooter hr{
+.jumbotron-img{
+    height: 35vh;
+}
+footer{
     width: 100%;
-    border: 1px solid #181818;
+    background-color: #ffcad4;
+    overflow: hidden;
+    min-height: 20vh;
+    color: #9d8189;
 }
-.fa-2x:hover{
-    color: #F57C00;
+footer strong{
+    color: #7b6067;
 }
-.center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+hr{
+    border-color: #7b6067;
+    width: 100%;
 }
