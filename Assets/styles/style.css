@@ -132,14 +132,20 @@ hr {
 .card ul {
     list-style: none;
 }
+iframe{
+    width: 71%;
+}
 
 @media screen and (max-width : 1000px) {
     .card-deck {
         flex-direction: column;
     }
 }
-@media screen and (max-width : 320px){
+@media screen and (max-width : 450px){
     p{
         font-size: 11px;
+    }
+    iframe{
+        width: 100%;
     }
 }
