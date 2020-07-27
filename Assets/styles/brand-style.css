@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: .8px;
+}
+
+nav {
+    background-color: #ffcad4;
+}
+
+.nav-item,
+.navbar-brand,
+.nav-link {
+    color: #9d8189;
+    font-size: 20px;
+}
+
+.navbar-brand :hover,
+.nav-link:hover {
+    color: #7b6067 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    outline: none;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.navbar-brand {
+    font-size: 5vh;
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    outline: none;
+}
+
+.navbar-brand strong {
+    align-self: flex-end;
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffcad4;
+    overflow: hidden;
+    min-height: 20vh;
+    color: #9d8189;
+}
+
+footer strong {
+    color: #7b6067;
+}
+
+hr {
+    border-color: #7b6067;
+    width: 100%;
+}
+
+.container h1{
+    font-size: 20px;
+}
+.pdf-container{
+    display: flex;
+    justify-content: center;
+}
+.pdf{
+    border: 2px solid #7b6067;
+    padding: 5px;
+    height: 80vh;
+    width: 90%;
+}
