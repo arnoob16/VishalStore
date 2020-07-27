@@ -132,7 +132,8 @@ hr {
 .card ul {
     list-style: none;
 }
-iframe{
+
+iframe {
     width: 71%;
 }
 
@@ -141,11 +142,13 @@ iframe{
         flex-direction: column;
     }
 }
-@media screen and (max-width : 450px){
-    p{
+
+@media screen and (max-width : 450px) {
+    p {
         font-size: 11px;
     }
-    iframe{
+
+    iframe {
         width: 100%;
     }
 }
