@@ -9,25 +9,18 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <style>
-        .pdf {
-            margin: auto;
-            position: relative;
-            width: 70%;
-            overflow: hidden;
-            padding-top: 75%;
-            /* 16:9 Aspect Ratio */
+        .container h1{
+            font-size: 20px;
         }
-
-        .responsive-iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
+        .pdf-container{
+            display: flex;
+            justify-content: center;
+        }
+        .pdf{
+            height: 100vh !important;
         }
     </style>
 </head>
@@ -37,7 +30,6 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-
                 <img src="./Assets/images/shopping-bag.png">
                 <strong class="ml-2">Asha Steel</strong>
             </a>
@@ -69,12 +61,14 @@
         </div>
     </nav>
     
-    <div class="embed-responsive embed-responsive-4by3">
-        <iframe class="embed-responsive-item"
-            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/arnoob16/VishalStore/raw/master/Assets/Catalogue/Borosil.pdf">
-        </iframe>
+    <div class="container">
+        <h1 class="text-center text-uppercase my-4">Scroll through our Borosil Catalogue</h1>
+        <div class="pdf-container">
+            <iframe class="pdf" src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://github.com/arnoob16/VishalStore/raw/master/Assets/Catalogue/Borosil.pdf">
+            </iframe>
+        </div>
     </div>
-
+    
     <footer>
         <div class="container mt-3">
             <div class="row">
@@ -97,7 +91,7 @@
                 <div class="col-md-4 center">
                     <h4>Contact Us</h4>
                     <p><i class=" fas fa-phone-alt mr-2"></i>+91 - 6969696969</p>
-                    <p><i class=" fas fa-home mr-2"></i>24, Kamani Center, Bistupur, Jamshedpur.</p>
+                    <small><i class=" fas fa-home mr-2"></i>24, Kamani Center, Bistupur, Jamshedpur.</small>
                 </div>
             </div>
         </div>
