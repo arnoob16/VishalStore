@@ -6,8 +6,11 @@ body{
      padding:2%;
 box-shadow: 10px 10px 14px #ababab,
         -10px -10px 14px #ababab
+        background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,32,29,0.7516048655790442) 45%, rgba(252,176,69,1) 100%);
 
 }
+
 @media only screen and (max-width: 750px) {
 .x1{
     width: 80%;
