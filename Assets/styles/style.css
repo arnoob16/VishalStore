@@ -137,6 +137,20 @@ iframe {
     width: 71%;
 }
 
+.redirect-button{
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #7b6067;
+    color: #ffcad4;
+    outline: none !important;
+}
+.redirect-button :focus, .redirect-button:hover{
+    outline: none !important;
+    box-shadow: none;
+    background-color: #9d8189;
+}
 @media screen and (max-width : 1000px) {
     .card-deck {
         flex-direction: column;
