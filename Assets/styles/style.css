@@ -126,6 +126,10 @@ hr {
     overflow: hidden;
 }
 
+.card :hover{
+    cursor: pointer;
+}
+
 .card:hover ::before{
     z-index: -999;
     content: "";
