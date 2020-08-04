@@ -119,6 +119,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 30% !important;
+    min-width: 300px;
     border: 2px solid #7b6067;
     border-radius: 15px;
     position: relative;
