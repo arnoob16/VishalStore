@@ -4,3 +4,26 @@
 .carousel-item img{
     height: 400px;
 }
+footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffcad4;
+    overflow: hidden;
+    min-height: 20vh;
+    color: #9d8189;
+}
+
+footer strong {
+    color: #7b6067;
+}
+
+.about{
+    border-right: 1px solid #333;
+}
+@media screen and (max-width:750px){
+    .about{
+        border-bottom: 1px solid #333;
+        margin-bottom: 2%;
+        border-right: none;
+    }
+}
