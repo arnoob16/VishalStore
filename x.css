@@ -9,10 +9,15 @@ body {
 
 }
 
+
 @media only screen and (max-width: 750px) {
     .x1 {
         width: 80%;
+    }
+    .about{
+        width: 90%;
 
+    }
 
     }
 }
