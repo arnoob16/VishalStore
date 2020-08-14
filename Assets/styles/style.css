@@ -45,6 +45,10 @@ nav {
     font-size: 20px;
 }
 
+.container :hover a{
+    color: #9d8189 !important;
+}
+
 .navbar-brand :hover,
 .nav-link:hover {
     color: #7b6067 !important;
@@ -103,6 +107,10 @@ footer strong {
 hr {
     border-color: #7b6067;
     width: 100%;
+}
+footer .text-align-left a{
+    color: #9d8189;
+    text-decoration: none;
 }
 
 .card-deck {

@@ -1,17 +1,18 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
-.x1 {
-    width: 60%;
-    padding: 2%;
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 32, 29, 0.7516048655790442) 45%, rgba(252, 176, 69, 1) 100%);
-
-}
 .about{
     width: 60%; 
     margin: 0 auto; 
-    
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #7b6067;
+}
+
+.fa-3x{
+    color: #7b6067;
 }
 
 @media only screen and (max-width: 750px) {
@@ -20,7 +21,5 @@ body {
     }
     .about{
         width: 90%;
-
     }
-
-    }
+}
